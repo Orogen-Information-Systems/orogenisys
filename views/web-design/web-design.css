@@ -1,7 +1,9 @@
-tr {
-    text-align: center;
-}
-
 table {
     border: 1px black solid;
+}
+
+kbd {
+    background-color: lightgrey;
+    border-radius: 10%;
+    padding: 0.1em 0.2em;
 }
