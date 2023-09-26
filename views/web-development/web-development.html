@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../base/style.css">
+    <title>Web Development</title>
+</head>
+<body>
+    <h1>Database Connections</h1>
+    <h1>Security</h1>
+    <h2>Database Security</h2>
+    <p>Bad actors can come in any place where a user can interact with data through your website. Consequently, there are several layers of security necessary.</p>
+    <p>Front end protections are limited, due to users' ability to manipulate the DOM. HTML attributes and labels are malleable and cannot be trusted to make it to the back end.</p>
+    <p>Data entered can also take the form of HTML or SQL code designed to trick the back end into reporting information different from what is intended. These attacks are referred to as injection attacks. Fortunately, such inputs can be sanitized prior to use in a database capacity.</p>
+    <p>Whichever tech stack is used, data submitted by the user should be secured as much as possible on the front- and back-ends of the website. Securing the data takes the form of a three-part approach.</p>
+    <ul>
+        <li>Validate
+            <p>Ensure the data is consistent with whats is being asked for in the form. Things like ages or quantities should be integers or floats. Dates should be formatted consistent with the final storage format. Strings should not contain any special code, or, if necessary, all code will need to be rendered inert at a later stage.</p>
+        </li>
+        <li>Sanitize
+            <p>Now that the code has been validated, it should be sanitized with any potential code replaced with inert text. Input should never be fed directly to the database as part of a query, or served up by the web-server as potential HTML.</p>
+        </li>
+        <li>Store
+        </li>
+    </ul>
+    <h1>PHP Form Processing</h1>
+    <h2>Steps</h2>
+    <h2>Useful Filters</h2>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <h2>Names and Other Strings</h2>
+    <h2>Controlled Lists</h2>
+    <h2>Email and Websites</h2>
+    <ul>
+        <li class="code">htmlspecialchars()</li>
+        <li class="code">filter_var($item, FILTER_TYPE, [options])</li>
+        <li class="code php"><span class="function">preg_replace(</span><span class="variable">$pattern</span>, <span class="variable">$replacement</span>, <span class="variable">$subject</span>)</li>
+    </ul>
+    <h2>Dates</h2>
+    <h1>Reference Links</h1>
+    <ul>
+        <li><a href="https://www.php.net/manual/en/funcref.php">Function Reference</a></li>
+    </ul>
+</body>
+</html>
