@@ -1,0 +1,46 @@
+* {
+    /* font-family:Arial, Helvetica, sans-serif; */
+}
+
+table {
+    border: 1px solid black;
+}
+
+th > tr {
+    border-bottom: 1px solid black;
+}
+
+.subheading {
+    font-weight: bold;
+    background-color: lightgray;
+    padding-left: 0;
+}
+
+.code {
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.code > .function {
+    /* font-family: 'Courier New', Courier, monospace;
+    font-weight: bold; */
+    color:darkslateblue;
+}
+
+.code > .variable{
+    font-family: 'Courier New', Courier, monospace;
+    color:firebrick;
+}
+
+.projects{
+    border: 0.1rem solid blue;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.project{
+    /* height: 20rem;
+    width: 30rem; */
+    border: 0.1rem solid black;
+    margin: 1rem;
+    padding: 0.2rem;
+}
