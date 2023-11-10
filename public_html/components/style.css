@@ -49,12 +49,8 @@ th > tr {
   fon
 }
 
-img {
-  max-height: 10rem;
-  margin: auto;
-}
-
 .footer {
+  margin-top: 5rem;
   font-size: small;
   text-align: center;
   font-weight: lighter;
